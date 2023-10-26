@@ -1,0 +1,30 @@
+#include <stdio.h>
+//A program to guess the number provided you're given three chances
+int main()
+{
+   int secret_number;
+   int guess_number;
+   secret_number = 8;
+   int i;
+   int guess_limit;
+   guess_limit = 3;
+//For loop to increment the guess limit to 3
+   for (i = 0 ; i <= guess_limit ; i++)
+   {
+       printf("Guess the number %d: ", i);
+       scanf("%d", &guess_number);
+//Compare the two values
+       if (guess_number == secret_number)
+       {
+           printf("Stupendous:)!!, You have won\n");
+           break;
+       }
+       if ("guess_number != secret_number")
+       {
+           printf("You lost\n");
+       }
+       
+   }
+   
+   return 0;
+}
