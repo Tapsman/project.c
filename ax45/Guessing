@@ -1,3 +1,4 @@
+#!bin/bash
 #include <stdio.h>
 //A program to guess the number provided you're given three chances
 int main()
